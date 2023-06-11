@@ -1,9 +1,9 @@
 import style from "./Home.module.scss"
 import Link from "next/link"
 
-const Card = ({title,url}) => {
+const Card = ({title,Furl}) => {
     return(
-        <Link href={url} className={style.link} target="_blank">
+        <Link href={Furl} className={style.link} target="_blank">
             <div className={style.Card}>
                 <h1>{title}</h1>
             </div>
