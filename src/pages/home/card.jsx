@@ -11,7 +11,6 @@ const Card = ({title,url}) => {
             rel="noopener noreferrer">
             <div className={style.Card}>
                 <h1>{title}</h1>
-                <h2>{url}</h2>
             </div>
             </a>
         </>
