@@ -49,5 +49,15 @@ export const data = [
         url:"https://programathor.com.br/",
         img:"",
     },
+    {
+        title:"Indeed",
+        url:"https://br.indeed.com/",
+        img:"",
+    },
+    {
+        title:"GeekHunter",
+        url:"https://www.geekhunter.com.br/",
+        img:"",
+    },
 
 ]
