@@ -60,7 +60,7 @@ const Home = () => {
         <div className={style.Home}>
             {data.map( platform => (
             
-            <Card title={platform.title} url={platform.url} key={platform.title}/>
+            <Card title={platform.title} url={url?platform.url:""} key={platform.title}/>
 
             ))}
         </div>
