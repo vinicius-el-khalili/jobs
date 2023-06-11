@@ -56,8 +56,22 @@ export const data = [
     },
     {
         title:"GeekHunter",
-        url:"https://www.geekhunter.com.br/",
+        url:"https://www.geekhunter.com.br/https://coodesh.com/",
         img:"",
     },
-
+    {
+        title:"Coodesh",
+        url:"https://coodesh.com/",
+        img:"",
+    },
+    {
+        title:"InfoJobs",
+        url:"https://www.infojobs.com.br/",
+        img:"",
+    },
+    {
+        title:"Hipsters",
+        url:"https://hipsters.jobs/",
+        img:"",
+    }
 ]
