@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+.Home{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Grandiflora One', serif;
+    background-color: #270b55;
+    color: #FFE79B;
+
+}
+.Card{
+
+    border: 1px dashed none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #FFE79B;
+
+}
