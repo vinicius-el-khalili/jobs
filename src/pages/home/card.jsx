@@ -3,12 +3,18 @@ import Link from "next/link"
 
 const Card = ({title,url}) => {
     return(
-        <Link href={url} className={style.link} target="_blank">
+        <>
+            <a 
+            className={style.link}
+            href={url} 
+            target="_blank" 
+            rel="noopener noreferrer">
             <div className={style.Card}>
                 <h1>{title}</h1>
                 <h2>{url}</h2>
             </div>
-        </Link>
+            </a>
+        </>
     )
 }
 

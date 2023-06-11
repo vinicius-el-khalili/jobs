@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
 .Home{
 
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
